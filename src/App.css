@@ -1,0 +1,23 @@
+.tudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FCFF4D;
+  width: 100%;
+  height: 48px;
+
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.box {
+  width: 1176px;
+}

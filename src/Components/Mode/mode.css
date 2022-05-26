@@ -1,0 +1,15 @@
+.mode {
+    border-bottom: 1px solid #EDEAE8;
+    width: 100%;
+}
+
+.infoMode {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.rosa{
+    border-bottom: 3px solid #F05B78;
+}

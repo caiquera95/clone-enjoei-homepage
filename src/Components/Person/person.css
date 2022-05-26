@@ -1,0 +1,44 @@
+.squad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.squad1 {
+    width: 315px;
+    height: 295px;
+
+    border: 1px solid #EDEAE8;
+    border-radius: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.squad h2 {
+    font-size: 18px;
+}
+
+.imgPerson {
+    width: 150px;
+    height: 150px;
+    max-width: auto;
+    max-height: auto;
+    border-radius: 50%;
+    border: 2px solid #EDEAE8;
+    margin-top: 20px;
+
+    object-fit: fill;
+
+    opacity: 0.8;
+}
+
+.imgPerson:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s;
+}
+
